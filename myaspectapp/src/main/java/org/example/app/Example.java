@@ -1,11 +1,11 @@
 package org.example.app;
 
-import org.example.Marker;
+import org.example.JiraCase;
 
 public class Example {
 
-    @Marker
-    public String makeUpperCase(String input) {
+		@JiraCase
+    public String makeUpperCase(String input, @JiraCase String other) {
         return input.toUpperCase();
     }
 

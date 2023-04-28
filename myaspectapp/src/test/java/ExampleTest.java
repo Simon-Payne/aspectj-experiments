@@ -6,6 +6,6 @@ public class ExampleTest {
 
     @Test
     public void testItWorks() {
-        Assert.assertEquals("YES", new Example().makeUpperCase("yes"));
+        Assert.assertEquals("YES", new Example().makeUpperCase("yes", "anything"));
     }
 }
