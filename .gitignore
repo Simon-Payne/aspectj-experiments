@@ -13,3 +13,6 @@
 
 ### Mac OS ###
 .DS_Store
+
+myaspectapp/target/
+myaspectlibrary/target/
